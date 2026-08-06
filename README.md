@@ -58,12 +58,6 @@ It uses specialized agents and external tools to fetch, parse, read, write, and 
 
 ---
 
-## ⚙️ Installation
-
-git clone https://github.com/your-username/multi-agent-research-system.git
-cd multi-agent-research-system
-pip install -r requirements.txt
-
 ## Usage
 python main.py "Impact of AI on Healthcare"
 
