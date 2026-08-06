@@ -4,11 +4,13 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from tools import web_search , scrape_url 
 from dotenv import load_dotenv
+from streamlit as st 
+from langchain_openai import ChatOpenAI
 
 load_dotenv()
 
 #model setup 
-llm = ChatOpenAI(model = "gpt-4o-mini",temperature=0)
+llm = ChatOpenAI(model = "gpt-4o-mini",temperature=0,api_key = st.secrets["OPEN_API_KEY"])
 
 
 #1st agent 
