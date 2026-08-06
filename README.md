@@ -1,4 +1,4 @@
-# 🧠 Multi-Agent Research System
+# 🧠 Multi-Agent Research System   [click to open running app](https://multi-agent-ai-research-system-umdlu2eumk7wy5amdgarko.streamlit.app/)
 
 This project implements a **multi-agent pipeline** for automated research synthesis.  
 Agents collaborate with external tools (Tavily API, BeautifulSoup) to fetch, parse, read, write, and critique research outputs, producing a polished final report.
