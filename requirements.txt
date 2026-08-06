@@ -43,6 +43,14 @@ httpx>=0.28.0
 orjson>=3.11.0
 
 
+streamlit
+langchain
+langchain-openai
+langgraph
+openai
+python-dotenv
+
+
 # Token Counting
 tiktoken>=0.9.0
 
